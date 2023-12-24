@@ -1,0 +1,30 @@
+main {
+    display: inline-flex;
+}
+#playerboard, #computerboard {
+    display: grid;
+    grid-template-columns: repeat(10, 5vmin);
+    grid-template-rows: repeat(10, 5vmin);
+    gap: 0;
+    justify-content: space-between;
+    padding: 5vmin;
+
+}
+
+#playerboard > div, #computerboard > div {
+    border: 0.1vmin solid grey;
+}
+
+#boat5 {
+    display: inline-block;
+    font-size: 0;
+    border: 0.1vmin solid gray;
+    height: 5vmin;
+    width: 25vmin;
+    background-color: gray;
+    cursor: move;
+}
+
+.dragging {
+    background-color: pink;
+}
