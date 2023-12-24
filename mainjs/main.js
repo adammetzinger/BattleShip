@@ -1,4 +1,4 @@
-const ships = document.querySelectorAll('#boat5');
+const ships = document.querySelectorAll('#boat');
 const board = document.querySelectorAll('#playerboard > div');
 
 ships.forEach(ship => {

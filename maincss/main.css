@@ -15,16 +15,35 @@ main {
     border: 0.1vmin solid grey;
 }
 
-#boat5 {
+#boat {
     display: inline-block;
     font-size: 0;
-    border: 0.1vmin solid gray;
-    height: 5vmin;
-    width: 25vmin;
+    border: 0.1vmin solid pink;
     background-color: gray;
     cursor: move;
 }
 
-#boat5.dragging {
+[value="5"] {
+    height: 5vmin;
+    width: 25vmin;
+}
+
+[value="4"] {
+    height: 5vmin;
+    width: 20vmin;
+}
+
+[value="3"] {
+    height: 5vmin;
+    width: 15vmin;
+}
+
+[value="2"] {
+    height: 5vmin;
+    width: 10vmin;
+}
+
+
+#boat.dragging {
     background-color: pink;
 }
